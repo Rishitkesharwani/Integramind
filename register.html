@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="/submit_form" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="middleName">Middle Name:</label>
+        <input type="text" id="middleName" name="middleName">
+        <br><br>
+    </div>
+    <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+    </div>
+    <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other" required>
+        <label for="other">Other</label>
+        <br><br>
+    </div>
+    <div>
+        <label>Hobbies:</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="writing" name="hobbies" value="Writing">
+        <label for="writing">Writing</input>
+        <input type="checkbox" id="listeningMusic" name="hobbies" value="Listening Music">
+        <label for="listeningMusic">Listening Music</label>
+        <input type="checkbox" id="watchingMovies" name="hobbies" value="Watching Movies">
+        <label for="watchingMovies">Watching Movies</label>
+        <input type="checkbox" id="otherHobbies" name="hobbies" value="Other">
+        <label for="otherHobbies">Other</label>
+        <br><br>
+    </div>
+    <div>
+        <label for="houseNumber">House Number:</label>
+        <input type="text" id="houseNumber" name="houseNumber" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="state">State:</label>
+        <select id="state" name="state" required>
+            <option value="">Select</option>
+            <option value="State1">State 1</option>
+            <option value="State2">State 2</option>
+            <option value="State3">State 3</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select</option>
+            <option value="Country1">Country 1</option>
+            <option value="Country2">Country 2</option>
+            <option value="Country3">Country 3</option>
+        </select>
+        <br><br>
+    </div>
+    <div>
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" maxlength="6" pattern="\d{6}" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="profilePicture">Profile Picture:</label>
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+        <br><br>
+    </div>
+    <div>
+        <label for="aboutMe">About Me:</label>
+        <textarea id="aboutMe" name="aboutMe" rows="10" required></textarea>
+        <br><br>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+        <br><br>
+    </div>
+</form>
+
+</body>
+</html>
