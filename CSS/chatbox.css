@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chatbox {
+  width: 350px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.chat-header {
+  padding: 10px;
+  background-color: #6b6bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #fff;
+}
+
+.user-name {
+  font-weight: bold;
+  color: #fff;
+}
+
+.header-icons span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.chat-messages {
+  padding: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.message {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.message-received {
+  justify-content: flex-start;
+}
+
+.message-sent {
+  justify-content: flex-end;
+}
+
+.message p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  line-height: 1.4;
+  background-color: #e1ffc7;
+  max-width: 70%;
+}
+
+.message-received p {
+  background-color: #d1eaff;
+}
+
+.time {
+  display: block;
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.chat-input {
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+.chat-input input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  outline: none;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #6b6bff;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background-color: #5a5adf;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+#button {
+  color: lightslategrey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font: 1em sans-serif;
+  overflow-x: 0;
+  z-index: 0;
+}
