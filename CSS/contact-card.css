@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#card {
+  border: 2px solid;
+  width: 305px;
+  height: auto;
+  position: relative;
+  background-color: rgb(242, 237, 237);
+}
+
+#heading {
+  border-bottom: 2px solid;
+  margin: 2px;
+}
+
+#card .img {
+  width: 300px;
+  height: auto;
+}
+
+a {
+  color: red;
+}
+
+[target="_blank"]::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(./image/newtab.png) no-repeat center;
+  background-size: contain;
+  margin-left: 5px;
+}
+
+#content {
+  font-style: oblique;
+}
+
+#offer {
+  position: absolute;
+  top: 0;
+  background: red;
+  border: 2px solid; /* Corrected border property */
+  display: inline-block;
+  right: 0;
+}
+
+#section1,
+#section2,
+#section3 {
+  background: rgb(238, 238, 252);
+  position: sticky;
+  top: 10px;
+}
