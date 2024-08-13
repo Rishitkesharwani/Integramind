@@ -1,0 +1,24 @@
+.search {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 100px;
+}
+.searchBox {
+  display: flex;
+  margin-top: 20px;
+  width: 200px;
+  position: relative;
+  margin-left: 650px;
+}
+.content {
+  width: 500px;
+  margin-top: 20px;
+  margin-left: 500px;
+  border-radius: 10px;
+}
+.fa-solid {
+  right: 0;
+  display: flex;
+  position: relative;
+}
