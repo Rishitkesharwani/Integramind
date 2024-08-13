@@ -1,0 +1,73 @@
+* {
+  background-color: black;
+}
+h1 {
+  text-align: center;
+  color: aqua;
+}
+p {
+  text-align: center;
+  color: white;
+}
+img {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  padding-left: 40%;
+  padding-right: 40%;
+}
+article {
+  border: 4px solid;
+  width: 400px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  margin-left: 37%;
+  margin-right: 40%;
+}
+button {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#Gradient {
+  background-color: azure;
+}
+#Hex:hover {
+  background-color: green;
+}
+#Hsl:hover {
+  background-color: green;
+}
+#Hsla:hover {
+  background-color: green;
+}
+#color:hover {
+  background-color: green;
+}
+#Gradient:hover {
+  background-color: green;
+}
+#but {
+  padding-left: 50px;
+  margin-left: 30%;
+  margin-top: 10px;
+}
+span {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  margin-left: 25%;
+  text-wrap: wrap;
+}
+input {
+  background-color: white;
+  color: black;
+  text-align: center;
+  border: 2px solid;
+  margin-left: 40%;
+  width: 20%;
+  height: 20px;
+  font-weight: bold;
+}
