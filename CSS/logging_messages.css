@@ -1,0 +1,140 @@
+body {
+  padding: 0;
+  border: 0;
+}
+#main {
+  border: 2px solid;
+  width: 70%;
+  height: 650px;
+  margin-left: 15%;
+  background-image: linear-gradient(to bottom, rgb(2, 2, 160), black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 70px;
+  font-size: 54px;
+}
+
+#parag {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  font-size: 20px;
+}
+button {
+  background-color: rgb(152, 236, 247);
+  border: none;
+  border-radius: 1px 30px 2px 30px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-left: 70px;
+  margin-bottom: 30px;
+}
+button:hover {
+  background-color: rgb(8, 222, 255);
+  color: red;
+}
+
+#log {
+  width: 150px;
+  height: 40px;
+
+  width: 200px;
+}
+#warm {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 10px;
+  width: 200px;
+}
+#messages {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 10px;
+  width: 200px;
+}
+
+#info {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 10px;
+  width: 200px;
+}
+#clear {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 120px;
+  width: 150px;
+}
+#assert {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+#table {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+#group {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+#custom {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+#cause {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 300px;
+}
+#error {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+#violation {
+  padding: 10px 20px;
+  width: 150px;
+  height: 40px;
+
+  margin-left: 0;
+}
+
+#para {
+  margin-left: 300px;
+  color: white;
+  margin-top: 20px;
+}
+#ul {
+  margin-left: 300px;
+  color: white;
+}
