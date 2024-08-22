@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .Card {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        display: grid;
+      }
+      .Card img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="posts"></div>
+    <script>
+      const cards = [
+        [
+          {
+            _id: "card1",
+            tittle: "Async Await Is The Worst Thing To Happen To Programming",
+            description: "I recently saw this meme about async and await.",
+            authorName: "Andrew Zuo",
+            CardImageUrl:
+              "https://miro.medium.com/v2/resize:fit:1100/format:webp/0*-LeVYCVWmOc-LFSk",
+            date: "20 JUN 2008",
+            likes: "5000",
+            Share: "1000",
+          },
+          {
+            _id: "card2",
+            tittle:
+              "“Good Commit” vs “Your Commit”: How to Write a Perfect Git Commit Message",
+            description:
+              "A good commit shows whether a developer is a good collaborator — Peter Hutterer, Linux.",
+            authorName: "Victor Timi",
+            CardImageUrl:
+              "https://miro.medium.com/v2/resize:fit:828/format:webp/1*ZHn1-9eTq-u47gUpYGMiZQ.png",
+            date: "5 SEPT 2023",
+            likes: "3000",
+            Share: "2000",
+          },
+        ],
+      ];
+
+      console.log(cards);
+      console.log(cards.length);
+
+      const postsContainer = document.querySelector(".posts");
+
+      // Flatten the array if needed
+      const flattenedCards = cards.flat();
+
+      flattenedCards.forEach((card) => {
+        const postsElement = document.createElement("div");
+        postsElement.className = "Card";
+        postsElement.id = card._id;
+        postsElement.innerHTML = `
+        <img src="${card.CardImageUrl}" alt="${card.tittle}" />
+        <h2>${card.tittle}</h2>
+        <p>${card.description}</p>
+        <p>Author: ${card.authorName}</p>
+        <p>Date: ${card.date}</p>
+        <p>Likes: ${card.likes}</p>
+        <p>Shares: ${card.Share}</p>
+      `;
+        postsContainer.appendChild(postsElement);
+      });
+    </script>
+  </body>
+</html>
